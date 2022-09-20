@@ -33,7 +33,7 @@ function Countdown({ text, targetDate }) {
         <div className="border-2 p-2 m-2 flex flex-col items-center">
             <div className="border-b-2 pb-2">
                 <h1 className="font-mono font-bold text-center text-5xl">{text}</h1>
-                <h4 className="font-mono font-bold text-center text-2xl">({targetDate.toDateString()})</h4>
+                <h4 className="font-mono font-bold text-center text-2xl">({targetDate.toLocalDateString()})</h4>
             </div>
             <div className="grid grid-flow-col gap-5 auto-cols-min pt-2">
                 <div className="flex flex-col items-center">
