@@ -1,5 +1,6 @@
 {
   "name": "countdown-timers",
+  "homepage": "https://nezteb.github.io/countdown-timers",
   "private": true,
   "version": "0.0.0",
   "type": "module",
